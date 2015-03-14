@@ -95,7 +95,8 @@ LOCAL_DISABLE_STRICT := \
 	sshconnect.c \
 	ssh \
 	libssh \
-	audio.primary.msm8960
+	audio.primary.msm8960 \
+	tcpdump
 
 ifneq (1,$(words $(filter $(LOCAL_DISABLE_STRICT), $(LOCAL_MODULE))))
 ifndef LOCAL_CONLYFLAGS
